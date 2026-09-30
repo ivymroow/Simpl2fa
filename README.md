@@ -80,24 +80,6 @@ the settings panel displays the date of your last export, helping you remember w
 
 ---
 
-application information
-
-| property | value |
-|----------|-------|
-| version | 0.0.4 |
-| build | beta 0.0.4 |
-| runtime | electron 33 + chromium |
-| platform | windows 64-bit |
-| encryption standard | aes-256-gcm + pbkdf2-sha512 (250,000 iterations) |
-| 2fa protocol | totp (rfc 6238) with sha1/sha256/sha512 support |
-| code formats supported | 6-digit and 8-digit totp codes |
-| qr decoder | jimp + jsqr (pure javascript, multi-strategy decoding) |
-| import formats | otpauth:// uri, google authenticator, json, .s2fa |
-| ui style | glassmorphism design |
-| author | ivymroow |
-
----
-
 getting started
 
 1. download the latest release for your platform (windows 64-bit)
